@@ -43,4 +43,8 @@
 
 - If accepts some statements also before the boolean expression
 - Any variables declared with if exist in only that if and else if blocks and are garbage collected after that
-- 
+- Even the switch statements can accept statement declaration just like the if statement.
+- The default statement in the switch can go anywhere.
+- The switch case has automatic breaks, it stops the execution after a case match
+- The fallthrough statement executes the next case also.
+- The case can help match multiple statements
